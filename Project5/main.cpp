@@ -44,7 +44,7 @@ void insertionSort(std::vector<int>& arr) {
     }
 }
 
-void printArray(const std::vector<int>& arr) {
+void printArray(std::vector<int>& arr) {
     for (const int& num : arr) {
         std::cout << num << " ";
     }
